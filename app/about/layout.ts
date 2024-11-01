@@ -1,3 +1,3 @@
-import { AboutLayout } from "@/pages/about/AboutLayout";
+import AboutLayout from "@/pages/about/AboutLayout";
 
 export default AboutLayout;
