@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description: "Pães artesanais",
 };
 
-export function RootLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;

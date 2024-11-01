@@ -1,7 +1,7 @@
 import { Footer } from "@/components/ui/footer";
 import { Header } from "@/components/ui/header";
 
-export function AboutLayout(props: { children: React.ReactNode }) {
+export default function AboutLayout(props: { children: React.ReactNode }) {
   const { children } = props;
 
   return (

@@ -1,7 +1,7 @@
 import { Footer } from "@/components/ui/footer";
 import { Header } from "@/components/ui/header";
 
-export function HomeLayout(props: { children: React.ReactNode }) {
+export default function HomeLayout(props: { children: React.ReactNode }) {
   const { children } = props;
 
   return (

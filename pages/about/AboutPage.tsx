@@ -1,7 +1,7 @@
 import imgSrc from "@/public/bread.jpg";
 import Image from "next/image";
 
-export function AboutPage() {
+export default function AboutPage() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-white">
       <main className="flex-1 flex flex-col items-center p-8">
