@@ -4,7 +4,7 @@ export const itemsJson = () => {
       id: "pao-rustico-italiano",
       name: "Pão rústico estilo italiano",
       description: "Pão crocante por fora e macio por dentro, com sabor autêntico de longa maturação em frio.",
-      price: 20.0,
+      price: 15.0,
       imgSrc: "paoRusticoItaliano",
     },
     {

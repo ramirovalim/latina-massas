@@ -7,13 +7,25 @@ export function NavLinks() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex flex-row justify-evenly w-full">
-      <Link className={`link ${pathname === "/" ? "active" : ""} text-base sm:text-lg`} href="/">
-        Home
+    <nav className="flex flex-row justify-evenly items-center w-full">
+      <Link
+        className={`link ${
+          pathname === "/" ? "text-amber-950 font-bold" : ""
+        } text-base sm:text-lg`}
+        href="/"
+      >
+        CARDÁPIO
       </Link>
+      {/* add a simple dot in the middle of the two links, but it has to be centered hor and vertically */}
+      <span className="text-amber-950 font-bold text-lg">•</span>
 
-      <Link className={`link ${pathname === "/about" ? "active" : ""} text-base sm:text-lg`} href="/about">
-        Sobre
+      <Link
+        className={`link ${
+          pathname === "/about" ? "text-amber-950 font-bold" : ""
+        } text-base sm:text-lg`}
+        href="/about"
+      >
+        A LATINA
       </Link>
     </nav>
   );
